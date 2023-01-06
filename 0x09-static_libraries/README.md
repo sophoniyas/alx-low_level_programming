@@ -1,0 +1,1 @@
+learing abot static_libraries
