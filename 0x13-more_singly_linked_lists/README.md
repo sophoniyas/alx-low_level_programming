@@ -1,32 +1,36 @@
-0x05 c-pointers, arrays and strings
+0x13-more singly linked lists
 
-A pointer is a variable that stores the memory address of another variable as its value. A pointer variable points to a data type (like int) of the same type, and is created with the * operator.
 
-    File: main.h is the header file containing all the function prototypes used in this project.
 
-    File: 0-reset_to_98.c is a function that takes a pointer to an int as parameter and updates the value it points to to 98.
+File 0-print_listint.c is a function that prints all the elements of a listint_t list.
 
-    File: 1-swap.c is a function that swaps the values of two integers.
+File 1-listint_len.c is a function that returns the number of elements in a linked listint_t list.
 
-    File: 2-strlen.c is a function that returns the length of a string.
+File 2-add_nodeint.c is a function that adds a new node at the beginning of a listint_t list.
 
-    File: 3-puts.c is a function that prints a string, followed by a new line, to stdout.
+File 3-add_nodeint_end.c is a function that adds a new node at the end of a listint_t list.
 
-    File: 4-print_rev.c is a function that prints a string, in reverse, followed by a new line.
+File 4-free_listint.c is a function that frees a listint_t list.
 
-    File: 5-rev_string.c is a function that reverses a string.
+File 5-free_listint2.c is a function that frees a listint_t list and sets the head pointer to NULL.
 
-    File: 6-puts2.c is a function that prints one char out of 2 of a string, followed by a new line.
+File 6-pop_listint.c is a function that deletes the head node of a listint_t linked list, and returns the head node’s data (n).
 
-    File: 7-puts_half.c is a function that prints half of a string, followed by a new line.
+File 7-get_nodeint.c is a function that returns the nth node of a listint_t linked list.
 
-    File: 8-print_array.c is a function that prints n elements of an array of integers, followed by a new line.
+File 8-sum_listint.c is a function that returns the sum of all the data (n) of a listint_t linked list.
 
-    File: 9-strcpy.c is a function that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
+File 9-insert_nodeint.c is a function that inserts a new node at a given position.
 
-    File: 100-atoi.c is a function that convert a string to an integer.
+File 10-delete_nodeint.c is a function that deletes the node at index index of a listint_t linked list.
 
-    File: 101-keygen.c is a program that generates random valid passwords for the program 101-crackme.
+File 100-reverse_listint.c is a function that reverses a linked list.
 
-    File: _putchar.c contains the _putchar() function definition.
+File 101-print_listint_safe.c is a function that prints a listint_t linked list, safely.
+
+File 102-free_listint_safe.c is a function that frees a listint_t list, safely.
+
+File 103-find_loop.c is a function that finds the loop in a linked list.
+
+File lists.h is the header file containing all these function prototypes and the data structure listint_t.
 

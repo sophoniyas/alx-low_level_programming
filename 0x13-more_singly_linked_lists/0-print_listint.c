@@ -1,11 +1,21 @@
-#include "main.h"
+#include "lists.h"
 
 /**
- * reset_to_98 - updates the value of the variable
- * the pointer points to to 98
- * @n: pointer to the variable to update
+ * print_listint - prints all the elements of a linked list
+ * @h: linked list of type listint_t to print
+ *
+ * Return: number of nodes
  */
-void reset_to_98(int *n)
+size_t print_listint(const listint_t *h)
 {
-	*n = 98;
+	size_t num = 0;
+
+	while (h)
+	{
+		printf("%d\n", h->n);
+		num++;
+		h = h->next;
+	}
+
+	return (num);
 }
